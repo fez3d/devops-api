@@ -1,4 +1,4 @@
-FROM ruby:2.7.7
+FROM ruby:2.7.0
 RUN apt-get update && apt-get install -y nodejs
 WORKDIR /app
 COPY Gemfile* .
